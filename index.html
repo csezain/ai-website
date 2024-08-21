@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="position-relative">
+      <div
+        class="container position-static navbar d-flex align-items-center gap-3 z-3"
+      >
+        <img
+          src="./assets/images/ai_logo.png"
+          class="logo z-100"
+          loading="lazy"
+          alt="Logo"
+        />
+        <div class="header-bg"></div>
+
+        <nav
+          class="mobile-nav navbar-nav-tag d-flex align-items-center justify-content-between flex-grow-1 p-0"
+          id="mobile-nav"
+        >
+          <ul class="d-flex align-items-center gap-4 m-0 p-0">
+            <li class="py-4"><a href="#"> Home</a></li>
+            <li class="py-4"><a href="#"> About</a></li>
+            <li class="py-4"><a href="#"> Pricing</a></li>
+            <li class="py-4"><a href="#"> Blogs</a></li>
+            <li class="py-4">
+              Use Case <i class="fa-solid fa-chevron-down"></i>
+            </li>
+            <li class="py-4">
+              Feature <i class="fa-solid fa-chevron-down"></i>
+            </li>
+          </ul>
+          <div
+            class="nav-buttons d-flex align-items-center justify-content-center gap-2"
+          >
+            <button
+              class="btn btn-outline-dark rounded-3 btn-outline-hvr-purple px-3 py-2 ml-auto"
+            >
+              Contact Sales
+            </button>
+            <button class="btn btn-dark px-3 py-2 rounded-3 btn-hvr-purple">
+              Login
+            </button>
+          </div>
+        </nav>
+
+        <div class="d-flex align-items-center z-100 gap-2">
+          <img src="./assets/images/cart_bag.png" class="cart-image" alt="" />
+          <span class="circle-badge"> 0 </span>
+          <!-- <div class="menu-icon" role="button" onclick="toggleMenu(this)">
+            <div class="menu-icon-line-top"></div>
+            <div class="menu-icon-line-middle">
+              <div class="menu-icon-line-middle-inner"></div>
+            </div>
+            <div class="menu-icon-line-bottom"></div>
+          </div> -->
+
+          <div id="nav-icon3" onclick="toggleMenu(this)">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <!-- <div >Here we go</div> -->
+        </div>
+      </div>
+    </header>
+    <main class="hero-section background-gradient-dot position-relative">
+      <div class="hero-circle"></div>
+      <div class="hero-circle _2"></div>
+
+      <section
+        class="position-relative z-2 px-0 container mx-auto py-5 hero-sections-container"
+      >
+        <div class="px-0 w-100 d-flex gap-3 flex-column justify-content-center">
+          <h1 class="hero-section-heading">
+            Supercharge Your Customer
+            <span class="clr-blue-violet"> Support Efficiency </span> with
+            ChatGPT
+          </h1>
+          <p class="dark-slate-gray">
+            Our goal is to provide you with a tailored solution that addresses
+            your specific challenges. Our chatbots are trained to have
+            human-like conversations using a process known as natural language
+            processing increasing the efficiency of customer support
+          </p>
+          <div class="d-flex gap-3">
+            <button class="btn btn-dark btn-cstm-lg btn-hvr-purple">
+              Get Started
+            </button>
+            <button
+              class="btn btn-outline-dark btn-cstm-lg btn-outline-hvr-purple"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div class="px-0 w-100">
+          <img
+            src="./assets/images/chat_hero_ss.jpg"
+            class="img-fluid rounded-3"
+            alt=""
+          />
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
